@@ -12,32 +12,36 @@ export class MenuComponent implements OnInit {
   ngOnInit(): void {
     this.items = [
       {
-          label: 'Documents',
-          items: [
-              {
-                  label: 'New',
-                  icon: 'pi pi-plus'
-              },
-              {
-                  label: 'Search',
-                  icon: 'pi pi-search'
-              }
+          label: 'Pipes de angular',
+          icon: 'pi pi-desktop',
+          items:[
+            {
+              label: 'Textos y fechas',
+              icon: 'pi pi-align-left',
+            },
+            {
+              label: 'Numeros',
+              icon: 'pi pi-dollar',
+            },
+            {
+              label: 'No comunes',
+              icon: 'pi pi-globe',
+            },
+
           ]
       },
       {
-          label: 'Profile',
-          items: [
-              {
-                  label: 'Settings',
-                  icon: 'pi pi-cog'
-              },
-              {
-                  label: 'Logout',
-                  icon: 'pi pi-sign-out'
-              }
+          label: 'Pipes personalizados',
+          icon: 'pi pi-cog',
+          items:[
+            {
+              label: 'Otro elemento',
+              icon: 'pi pi-cog',
+            }
           ]
       }
     ];
+
   }
 
 }
