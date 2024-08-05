@@ -38,4 +38,12 @@ export class UncommonPageComponent {
   public deleteClient = () => {
     this.clients.shift();
   }
+
+  // KeyValuePipe - JsonPipe
+  public person = {
+    name : 'Duvan',
+    age : 23,
+    address: 'Bogota, Colombia'
+  }
+
 }
