@@ -1,16 +1,19 @@
 <p-panel header = 'Pipes Personalizados' class="p-2">
   <p>
-    Pipes Personalizados - creados por {{'nosotros' | toggleCase: false }}
+    Pipes Personalizados - creados por {{'nosotros' | toggleCase: isUpperCase }}
   </p>
 </p-panel>
 
 <p-toolbar>
 
   <div class="p-toolbar-group-start">
-    <p-button label="ToggleCase" icon="pi pi-search"></p-button>
-  </div>
-  <div class="p-toolbar-group-end">
 
+    <p-button label="ToggleCase" icon="pi pi-search" (onClick)="toggleUpperCase()"></p-button>
+
+  </div>
+
+
+  <div class="p-toolbar-group-end">
 
     <p-button class="mr-2" label="Por nombre" icon="pi pi-sort" styleClass="p-button-success"></p-button>
 
