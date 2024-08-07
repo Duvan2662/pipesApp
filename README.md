@@ -1,5 +1,5 @@
 # Informacion 
-Este aplicativo tiene como fin aprender mas sobre los pipes de Angular como los personalizados que sirven para modificar la Data sin tranformarla. Ademas se sigue poniendo en practica las rutas y se enpieza a usar el material design de [PrimeNG](https://primeng.org/) y sus estilos con [PrimeFlex](https://primeflex.org/)
+Este aplicativo tiene como fin aprender mas sobre los pipes de Angular como los personalizados que sirven para modificar la Data sin tranformarla. Ademas se sigue poniendo en practica las rutas y se enpieza a usar el material design de [PrimeNG](https://primeng.org/) y sus estilos con [PrimeFlex](https://primeflex.org/) La pagina web queda desplegada en mi repositorio por si lo desean ver funcionando. utilizo GitHubPages
 
 
 # Pipes de Angular comunes: UpperCase - LowerCase - TitleCase - Date
